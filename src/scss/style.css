@@ -44,6 +44,19 @@ img {
   height: 100%;
 }
 
+.btn {
+  margin: 30px 0;
+}
+
+.btn-primary {
+  color: #b31d39;
+  font-size: 24px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
 .navbar-section {
   width: 100%;
   background-color: #000;
@@ -80,15 +93,6 @@ h2 {
 .hero-section {
   padding: 100px 100px;
   background: #292a2c;
-}
-
-.btn {
-  margin: 30px 0;
-}
-
-.btn-primary {
-  color: #b31d39;
-  font-size: 24px;
 }
 
 .grid-section {
@@ -199,6 +203,10 @@ h2 {
 
 .overlay h4 {
   font-size: 12px;
+}
+
+.grid:hover {
+  cursor: pointer;
 }
 
 .grid:hover .overlay {

@@ -16,13 +16,7 @@ h2 {
   padding: 100px 100px;
   background: $default-color;
 }
-.btn {
-  margin: 30px 0;
-}
-.btn-primary {
-  color: $primary;
-  font-size: 24px;
-}
+
 .grid-section {
   display: grid;
   width: 75%;
@@ -84,6 +78,8 @@ h2 {
   }
 }
 .grid:hover {
+  cursor: pointer;
+
   .overlay {
     bottom: 0;
     transition: 500ms;
