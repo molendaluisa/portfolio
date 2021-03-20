@@ -1,24 +1,32 @@
 @import "variables";
 @import "globals";
 
-.container {
-  padding: 160px 120px;
-}
 .about-container {
+  padding: 100px 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: $default-color;
 }
+
+h1 {
+  font-size: 64px;
+}
+h2,
+p {
+  font-weight: $thin;
+  padding: 20px 0;
+  line-height: 2;
+}
+h3 {
+  color: $secondary;
+}
+p {
+  line-height: 1.1;
+}
+
 .text-section {
   width: 45%;
-  h1 {
-    font-size: 64px;
-  }
-  h2 {
-    font-weight: $thin;
-    padding: 20px 0;
-    line-height: 2;
-  }
 }
 .photo {
   img {
@@ -33,26 +41,30 @@
   grid-template-columns: 30% 70%;
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
-  padding: 100px 15px;
-  font-size: 24px;
+  padding: 100px 250px;
+  font-size: 22px;
+}
+.two-columns {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 576px) {
-  .container {
-    padding: 50px 30px;
-  }
   .about-container {
     flex-direction: column-reverse;
+    padding: 50px 30px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2,
+  h3,
+  p {
+    font-size: 18px;
   }
   .text-section {
     width: 100%;
     text-align: center;
-    h1 {
-      font-size: 32px;
-    }
-    h2 {
-      font-size: 18px;
-    }
   }
   .photo {
     img {
@@ -64,5 +76,6 @@
   .cv-grid {
     display: flex;
     flex-direction: column;
+    padding: 50px 30px;
   }
 }
