@@ -1,4 +1,6 @@
 @import "navbar";
+@import "footer";
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -71,5 +73,11 @@ img {
   }
   &:hover::before {
     width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-primary {
+    font-size: 18px;
   }
 }

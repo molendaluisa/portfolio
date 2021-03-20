@@ -15,6 +15,7 @@
   position: sticky;
   top: 0;
   background-color: #000;
+  z-index: 1000;
 }
 
 .logo {
@@ -111,6 +112,95 @@
   }
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.go-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 5%;
+  background-color: #292a2c;
+}
+
+.go-up div {
+  font-size: 30px;
+}
+
+.info {
+  padding: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 95%;
+  background-color: #151517;
+}
+
+.info h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.info h4 {
+  font-size: 28px;
+  padding: 20px 0;
+  font-weight: 100;
+}
+
+.info a {
+  display: inline-block;
+}
+
+.info .fab {
+  font-size: 36px;
+  margin: 0 10px;
+}
+
+@media (max-width: 576px) {
+  .go-up {
+    display: none;
+  }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info h3 {
+    font-size: 20px;
+  }
+  .info h4 {
+    font-size: 16px;
+  }
+  .info .fab {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -197,6 +287,12 @@ img {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .btn-primary {
+    font-size: 18px;
+  }
+}
+
 h1,
 h2 {
   font-size: 130px;
@@ -208,13 +304,6 @@ h1 {
 
 h2 {
   font-weight: 100;
-}
-
-h3 {
-  text-align: center;
-  margin-top: 65px;
-  font-weight: 400;
-  font-size: 30px;
 }
 
 .hero-section {
