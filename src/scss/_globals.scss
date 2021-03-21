@@ -75,6 +75,9 @@ img {
     width: 100%;
   }
 }
+.disabled {
+  border-bottom: solid 1px $primary;
+}
 
 @media (max-width: 576px) {
   .btn-primary {

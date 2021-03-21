@@ -287,6 +287,10 @@ img {
   width: 100%;
 }
 
+.disabled {
+  border-bottom: solid 1px #b31d39;
+}
+
 @media (max-width: 576px) {
   .btn-primary {
     font-size: 18px;

@@ -73,7 +73,9 @@ h2 {
     font-family: $space-mono;
   }
   h5 {
-    font-size: 12px;
+    i {
+      font-size: 24px;
+    }
   }
 }
 .grid:hover {
