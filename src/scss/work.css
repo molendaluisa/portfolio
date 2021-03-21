@@ -496,35 +496,4 @@ img {
     display: block;
   }
 }
-
-h1,
-h2 {
-  font-size: 130px;
-}
-
-h1 {
-  font-weight: 400;
-}
-
-h2 {
-  font-weight: 100;
-}
-
-.hero-section {
-  padding: 100px 100px;
-  background: #292a2c;
-}
-
-@media (max-width: 576px) {
-  h1,
-  h2 {
-    font-size: 42px;
-  }
-  h3 {
-    font-size: 24px;
-  }
-  .hero-section {
-    padding: 25px 25px;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=work.css.map */
