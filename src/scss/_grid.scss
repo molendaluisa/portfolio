@@ -16,6 +16,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 190px);
   gap: 20px;
+  overflow: hidden;
 }
 .grid {
   overflow: hidden;
@@ -49,6 +50,15 @@
 }
 .pjt8 {
   grid-area: 3 / 4 / 4 / 5;
+}
+.pjt9 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.pjt10 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.pjt11 {
+  grid-area: 4 / 3 / 5 / 5;
 }
 .overlay {
   position: absolute;

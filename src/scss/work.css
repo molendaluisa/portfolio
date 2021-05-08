@@ -338,6 +338,7 @@ img {
   -ms-grid-rows: (190px)[3];
       grid-template-rows: repeat(3, 190px);
   gap: 20px;
+  overflow: hidden;
 }
 
 .grid {
@@ -414,6 +415,30 @@ img {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 3 / 4 / 4 / 5;
+}
+
+.pjt9 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.pjt10 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.pjt11 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: 4 / 3 / 5 / 5;
 }
 
 .overlay {
